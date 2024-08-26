@@ -36,29 +36,46 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Started College",
+    location: "Karachi, PK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After completing my A-levels with staggering 4 A*s, I began my journey in Computer Science at Habib University.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Developer",
+    location: "Austin, TX",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a web developer for a US-based startup called Ascendia Studios. We developed marketing and IT solutions for clients. My worked revolved around the development and management of E-commerce Web Applications.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Undergraduate Research Assistant",
+    location: "Karachi, PK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as an undergraduate research assistant at Habib University under Dr. Qasim Pasta. I worked on topics such as comparative analysis of graph databases. This line of work gave me hands-on experience with tools like Cypher, Graph Databases, Linux and Docker.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
   },
+  {
+    title: "IT Intern",
+    location: "Karachi, PK",
+    description:
+      "I worked as an IT Intern at a prestigious biscuits manufacturing company in Karachi known as Continental Biscuits Limited. At their head office in Karachi I worked on the Logistics Execution Module of the SAP ERP system. Using data from that module, I developed a dashboard for the management to track the performance of the logistics department.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+  {
+    title: "Test Automation Intern",
+    location: "Karachi, PK",
+    description:
+    "I gained hands-on training in test automation using Selenium and Cypress at a renowned software house known as 10Pearls. I worked on a project that involved automating the testing of a web application for a client.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+
+  }
 ] as const;
 
 export const projectsData = [

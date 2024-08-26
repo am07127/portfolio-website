@@ -34,7 +34,7 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+          asadmuhammad519@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -67,7 +67,9 @@ export default function Contact() {
           required
           maxLength={5000}
         />
+        <div className="flex items-center gap-2">
         <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );
